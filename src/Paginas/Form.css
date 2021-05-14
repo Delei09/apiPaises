@@ -1,0 +1,78 @@
+.buttonPesquisar{
+    width: 156px;
+    height: 36px;
+    color: #FFFFFF;
+    background: #6D2080;
+    border-radius: 10px;
+    offset: none;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.divSelect{
+    display: flex;
+    flex-direction: column;
+    gap : 2px;
+}
+.selectLabel{color: #6D2080;}
+select{
+    width: 316px;
+    color: #8D8D8D;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #A8A8A8;
+    background-color: #ffffff;
+}
+option {
+    color: #8D8D8D;
+    font-size: 1rem;
+
+}
+option:hover{
+    color:     #02AE99;
+    background-color: white;
+}
+.input-dados{
+    padding: 5px;
+    border-radius: 4px;
+    max-width: 400px;
+    height: 30px;
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid #A8A8A8;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: 1fr, 1fr;
+    gap: 20px;
+    align-items: center;   
+    margin: 0 auto; 
+    
+    padding: 30px;
+}
+.divItem{
+    padding: 10px;
+    background-color:#eeeeee;
+}
+
+@media screen and (max-width: 600px) {
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    button{
+        align-items: flex-end;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}

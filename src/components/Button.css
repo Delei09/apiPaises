@@ -1,0 +1,13 @@
+.botaoVoltar{
+    height: 36px;
+    width: 134px;
+    border-radius: 0px;
+    border: 1px solid #6D2080;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #6D2080;
+
+}
+.seta{
+    color: #6D2080;
+}

@@ -1,0 +1,75 @@
+.pagina2{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 90px;
+}
+.paginaBandeira{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 10px;
+
+}
+.imgBandeira{
+    padding: 10px;
+    background-color:#eeeeee;
+    display: flex;
+    max-height: auto;
+    width: 400px;
+}
+.imgBandeira img{
+    width: 100%;
+    height: auto;
+}
+.paginaNomes h3{
+    font-size: 1rem;
+}
+.paginaVizinhos{
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;   
+}
+.paginaVizinhosImagem{
+    display: flex;
+    justify-content: space-around;
+}
+.imagemVizinho{
+    width: 150px;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .paginaBandeira{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgBandeira{
+            max-width: 450px;
+            max-height: 250px;
+    }
+    .imgBandeira img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+        .paginaBandeira{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .imgBandeira{
+            max-width:500px;
+            width: auto;
+        }
+}
+@media screen and (max-width: 445px) {
+    .imgBandeira{
+        max-width:270px;
+        width: auto;
+    }
+}
